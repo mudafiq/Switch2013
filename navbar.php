@@ -5,11 +5,22 @@
 			<a class="brand" href="index.html"> <img src="images/switch.png" width="174" height="52" alt="logo"></a>
 				<div class="nav-collapse collapse">
 					<ul class="nav pull-right">
-						<li class="active"><a href="index.php">HOME</a></li>
-						<li><a href="pembicara.php">PEMBICARA</a></li>
-						<li><a href="daftar.php">DAFTAR</a></li>
-						<li><a href="acara.php">ACARA</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+						<?php
+							if($_SERVER['PHP_SELF']=='/switch2013/trunk/index.php'){
+								echo '<li class="active"><a href="index.php">HOME</a></li>
+									<li><a href="pembicara.php">PEMBICARA</a></li>
+									<li><a href="acara.php">ACARA</a></li>';
+							}elseif($_SERVER['PHP_SELF']=='/switch2013/trunk/pembicara.php'){
+								echo '<li><a href="index.php">HOME</a></li>
+									<li class="active"><a href="pembicara.php">PEMBICARA</a></li>
+									<li><a href="acara.php">ACARA</a></li>';
+							}elseif($_SERVER['PHP_SELF']=='/switch2013/trunk/acara.php'){
+								echo '<li><a href="index.php">HOME</a></li>
+									<li><a href="pembicara.php">PEMBICARA</a></li>
+									<li class="active"><a href="acara.php">ACARA</a></li>';
+							}
+						?>
+						
 					</ul>
 				</div>
 			</div>
