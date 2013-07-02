@@ -66,7 +66,7 @@
 <!-- this content -->
 	<div class="row-fluid mainFeatures">
 		<div class="span4">
-			<div class="thumbnail"> <img src="images/secure_img.png" width="85" height="88" alt="secure">
+			<div class="thumbnail well" style="height:250px;"> <img src="images/secure_img.png" width="85" height="88" alt="secure">
 				<div class="caption">
 					<h3 align="center">Tema</h3>
 					<h4 align="center">Tema dari Seminar dan Worksop Kali ini adalah "Indonesia Youth Cyber Army"</h4>
@@ -74,7 +74,7 @@
 			</div>
 		</div>
 		<div class="span4">
-			<div class="thumbnail"> <img src="images/fast_img.png" width="85" height="88" alt="secure">
+			<div class="thumbnail well" style="height:250px;"> <img src="images/fast_img.png" width="85" height="88" alt="secure">
 				<div class="caption">
 					<h3 align="center">Jadwal</h3>
 					<h4 align="center">28-29 Agustus 2013 </h4>
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 		<div class="span4">
-			<div class="thumbnail"> <img src="images/support_img.png" width="85" height="88" alt="secure">
+			<div class="thumbnail well" style="height:250px;"> <img src="images/support_img.png" width="85" height="88" alt="secure">
 				<div class="caption">
 					<h3 align="center">Bonus</h3>
 					<h4 align="center">Seminar Kit, Snack, Coffe Break, Lunch, Sertifikat</h4>
