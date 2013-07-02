@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>FlatHost - Responsive Onepage Hosting Template</title>
+<title>SWITCH 2013 - Seminar and Workshop Information Technology | TI UMJember</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 <link href="css/bootstrap.css" rel="stylesheet">

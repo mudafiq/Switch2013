@@ -20,8 +20,8 @@
 			<div class="span2">
 				<p>FOLLOW US</p>
 				<ul>
-				<li><a href="http://twitter.com/surjithctly" target="_blank">Follow on Twitter</a></li>
-				<li><a href="http://web3canvas.com/" target="_blank">Like us on Facebook</a></li>
+				<li><img src="img/twitter.png" width="30" height="30"/> <a href="http://www.twitter.com/switch_umjember" target="_blank">@switch_umjember</a></li>
+				<li><img src="img/facebook.png" width="30" height="30"/> <a href="http://www.facebook.com/switch.umjember" target="_blank">switch.umjember</a></li>
 				</ul>
 			</div>
 			<div class="span2">
