@@ -32,30 +32,31 @@
 	<?php 
 	include 'navbar.php';
 	?>
+	
 	<!-- this is slideshow -->
 	<div class="container">
 		<div class="flexslider">
 			<ul class="slides">
-				<li>
+				<!--li>
 					<div class="hero-unit">
 						<h1>Affordable Hosting Solution</h1>
 						<h3>Flathost is a bootstrap based responsive minimal, flat and afforable hosting template with easy customization and great support</h3>
 						<p class="hidden-phone"> <a href="#" class="btn btn-success btn-large">Explore Features </a> <a href="#" class="btn btn-primary btn-large">Plans and Pricing </a> </p>
 					</div>
-				</li>
+				</li-->
 				<li>
 					<div class="slide2">
-						<p><img src="images/server1.png" alt="server"></p>
-						<h1>Dedicated and VIP Hosting</h1>
+						<p><img src="images/cover_switch.png" alt="server"></p>
+						
 					</div>
 				</li>
-				<li>
+				<!--li>
 					<div class="slide3">
 						<p class="pull-left"><img src="images/server2.png" alt="server"></p>
 						<h1>Managed Hosting</h1>
 						<h3>Flathost is a bootstrap based responsive minimal, flat and afforable hosting template with easy customization and great support</h3>
 					</div>
-				</li>
+				</li-->
 			</ul>
 		</div>
 	</div>
