@@ -6,15 +6,16 @@
 				<div class="nav-collapse collapse">
 					<ul class="nav pull-right">
 						<?php
-							if($_SERVER['PHP_SELF']=='/Switch2013/trunk/index.php'){
+							
+							if(preg_match("/index.php/", $_SERVER['PHP_SELF'])){
 								echo '<li class="active"><a href="index.php">HOME</a></li>
 									<li><a href="pembicara.php">PEMBICARA</a></li>
 									<li><a href="acara.php">ACARA</a></li>';
-							}elseif($_SERVER['PHP_SELF']=='/Switch2013/trunk/pembicara.php'){
+							}elseif(preg_match("/pembicara.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
 									<li class="active"><a href="pembicara.php">PEMBICARA</a></li>
 									<li><a href="acara.php">ACARA</a></li>';
-							}elseif($_SERVER['PHP_SELF']=='/Switch2013/trunk/acara.php'){
+							}elseif(preg_match("/acara.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
 									<li><a href="pembicara.php">PEMBICARA</a></li>
 									<li class="active"><a href="acara.php">ACARA</a></li>';
