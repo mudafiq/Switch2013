@@ -25,6 +25,7 @@
  
 </head>
 <body>
+asdfasdfsdaf
 <a id="home"></a>
 	<?php
 	include 'navbar.php';
