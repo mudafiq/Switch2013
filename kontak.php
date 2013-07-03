@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>FlatHost - Responsive Onepage Hosting Template</title>
+<title>SWITCH 2013 - Seminar and Workshop Information Technology | TI UMJember</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -25,154 +25,36 @@
  
 </head>
 <body>
+<a id="home"></a>
  
-<div class="navbar navbar-fixed-top navbar-absolute">
-<div class="navbar-inner">
-<div class="container">
+<?php 
+include'navbar.php';
+?>
  
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+<div class="container"> <a id="features"></a>
  
-<a class="brand" href="index.html"> <img src="images/switch.png" width="174" height="52" alt="logo"></a>
- 
-<div class="nav-collapse collapse">
- 
-<div class="nav-collapse collapse">
- 
-<ul class="nav pull-right">
-<li class="active"><a href="index.html">HOME</a></li>
-<li><a href="acara.html">ACARA</a></li>
-<li><a href="pembicara.html">PEMBICARA</a></li>
-<li><a href="daftar.html">DAFTAR</a></li>
-<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACARA<b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="blog.html">SEMINAR</a></li>
-<li><a href="blog-post.html">WORKSHOP</a></li>
-</ul>
-</li>
-<li><a href="contact.html">CONTACT</a></li>
+<div class="row-fluid FeatLayout">
+<div class="span5 Featimg"><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Akademi+Pariwisata,+Jember,+East+Java,+Indonesia&amp;aq=0&amp;oq=akademi+pariwisata+je&amp;sll=37.0625,-95.677068&amp;sspn=37.325633,86.572266&amp;ie=UTF8&amp;hq=Akademi+Pariwisata,+Jember,+East+Java,+Indonesia&amp;ll=-8.174694,113.716325&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe></div>
+<div class="span7">
+<h1>Kontak Kami</h1>
+<h3>A left aligned image and content with tick</h3>
+<p>As soon as you make a successful payment via PayPal or Google Checkout, your web hosting and domain names will be activated immediately. No waiting time whatsoever. Our network runs the latest stable and secure versions of PHP &amp; MySQL. </p>
+<ul class="ticklist">
+<li>Dedicated Servers</li>
+<li>cPanel Access</li>
+<li>MySQL Databases</li>
+<li>Super Bandwidth</li>
+<li>Web Builder</li>
+<li>Web Secutity</li>
 </ul>
 </div>
 </div>
 </div>
-</div>
  
-<div class="container">
-<div class="row-fluid PageHead">
-<div class="span12">
-<h1>Contact Us</h1>
-<h3>Keep in touch with us. we are here to help you</h3>
-</div>
-</div>
-<div class="row-fluid ContactUs">
-<div class="span6">
-<div class="row-fluid">
-<div class="span6">
-<h4> Australia </h4>
-<address>
-<strong>Flat Host Pty Ltd</strong><br>
-13/2 Elizabeth Street<br>
-Melbourne VIC 30007<br>
-Australia<br>
-<abbr title="Phone">P:</abbr> +61 3 8376 6284<br>
-<br>
-</address>
-</div>
-<div class="span6">
-<h4>India</h4>
-<address>
-<strong>Flat Host Pty Ltd</strong><br>
-MG Road<br>
-Pulleppady Jn<br>
-Kochi, India<br>
-<abbr title="Phone">P:</abbr>+91 9 8376 6280<br>
-<br>
-</address>
-</div>
-</div>
-<div class="row-fluid">
-<div class="span12"> <img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&amp;zoom=13&amp;size=600x300&amp;scale=2&amp;sensor=false" alt="static map"> <br>
-<br>
-</div>
-</div>
-</div>
-<div class="span6">
-<input class="input-block-level" type="text" required="required" placeholder="Full Name">
-<input class="input-block-level" type="email" required="required" placeholder="Email ID">
-<input class="input-block-level" type="text" required="required" placeholder="Mobile Number">
-<textarea class="input-block-level" rows="10"> Your Message </textarea>
-<p> <a href="#" role="button" class="btn btn-success btn-large">Send Message </a> </p>
-</div>
-</div>
-</div>
-<div class="footer">
-<div class="container">
-<div class="row-fluid footerlinks">
-<div class="span2">
-<p>Alamat</p>
-<ul>
-<li>Jurusan Teknik Informatika</li>
-<li>Fakultas Teknik </li>
-<li>Universitas Muhammadiyah Jember</li>
-<li>Telp: (0331)30323  Fax: (0331)753553</li>
-</ul>
-</div>
-<div class="span2">
-<p>Contact Person</p>
-<ul>
-<li>Triwan Adi Cahyanto, S.Kom</li>
-<li>085743204234</li>
-</ul>
-</div>
-<div class="span2">
-<p>FOLLOW US</p>
-<ul>
-<li><a href="http://twitter.com/surjithctly" target="_blank">Follow on Twitter</a></li>
-<li><a href="http://web3canvas.com/" target="_blank">Like us on Facebook</a></li>
-<li><a href="http://surjithctly.in/" target="_blank">Join on Linkedin</a> </li>
-</ul>
-</div>
-<div class="span2">
-<p>Copyright &copy; 2013. SWITCH 2013</p>
-<ul>
-<li><img src="images/logo-footer.png" alt="logo"></li>
-</ul>
-</div>
- 
-<div id="Login" class="modal hide fade LoginSignup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<h3 id="myModalLabel">Login</h3>
-</div>
-<div class="modal-body">
-<form>
-<input type="text" placeholder="Email ID">
-<input type="password" placeholder="Password">
-<button type="submit" class="btn btn-success btn-large">Login to my Account</button>
-<label class="checkbox">
-<input type="checkbox">
-Remember me </label>
-</form>
-</div>
-</div>
- 
-<div id="Signup" class="modal hide fade LoginSignup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-<h3 id="myModalLabel2">Signup</h3>
-</div>
-<div class="modal-body">
-<form>
-<input type="text" placeholder="Full Name">
-<input type="text" placeholder="Email ID">
-<input type="password" placeholder="Password">
-<input type="text" placeholder="Location">
-<button type="submit" class="btn btn-success btn-large">Signup for an Account</button>
-<label class="checkbox">
-<input type="checkbox">
-I Agree to the Terms and Conditions </label>
-</form>
-</div>
-</div>
+<?php 
+include 'footer.php';
+?>
+
  
 <script src="js/jquery.easing.1.2.js"></script>
  

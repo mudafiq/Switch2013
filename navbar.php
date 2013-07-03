@@ -10,15 +10,23 @@
 							if(preg_match("/index.php/", $_SERVER['PHP_SELF'])){
 								echo '<li class="active"><a href="index.php">HOME</a></li>
 									<li><a href="pembicara.php">PEMBICARA</a></li>
-									<li><a href="acara.php">ACARA</a></li>';
+									<li><a href="acara.php">ACARA</a></li>
+									<li><a href="kontak.php">Kontak</a></li>';
 							}elseif(preg_match("/pembicara.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
 									<li class="active"><a href="pembicara.php">PEMBICARA</a></li>
-									<li><a href="acara.php">ACARA</a></li>';
+									<li><a href="acara.php">ACARA</a></li>
+									<li><a href="kontak.php">Kontak</a></li>';
 							}elseif(preg_match("/acara.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
 									<li><a href="pembicara.php">PEMBICARA</a></li>
-									<li class="active"><a href="acara.php">ACARA</a></li>';
+									<li class="active"><a href="acara.php">ACARA</a></li>
+									<li><a href="kontak.php">Kontak</a></li>';
+							}elseif(preg_match("/kontak.php/", $_SERVER['PHP_SELF'])){
+								echo '<li><a href="index.php">HOME</a></li>
+									<li><a href="pembicara.php">PEMBICARA</a></li>
+									<li><a href="acara.php">ACARA</a></li>
+									<li class="active"><a href="kontak.php">Kontak</a></li>';
 							}
 						?>
 						
