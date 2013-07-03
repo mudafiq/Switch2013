@@ -9,24 +9,46 @@
 							
 							if(preg_match("/index.php/", $_SERVER['PHP_SELF'])){
 								echo '<li class="active"><a href="index.php">HOME</a></li>
-									<li><a href="pembicara.php">PEMBICARA</a></li>
-									<li><a href="acara.php">ACARA</a></li>
-									<li><a href="kontak.php">Kontak</a></li>';
-							}elseif(preg_match("/pembicara.php/", $_SERVER['PHP_SELF'])){
+									<li><a href="speaker.php">SPEAKER</a></li>
+									<li><a href="seminar.php">SEMINAR</a></li>
+									<li><a href="workshop.php">WORKSHOP</a></li>
+									<li><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li><a href="contact.php">CONTACT</a></li>';
+							}elseif(preg_match("/speaker.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
-									<li class="active"><a href="pembicara.php">PEMBICARA</a></li>
-									<li><a href="acara.php">ACARA</a></li>
-									<li><a href="kontak.php">Kontak</a></li>';
-							}elseif(preg_match("/acara.php/", $_SERVER['PHP_SELF'])){
+									<li class="active"><a href="speaker.php">SPEAKER</a></li>
+									<li><a href="seminar.php">SEMINAR</a></li>
+									<li><a href="workshop.php">WORKSHOP</a></li>
+									<li><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li><a href="contact.php">CONTACT</a></li>';
+							}elseif(preg_match("/seminar.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
-									<li><a href="pembicara.php">PEMBICARA</a></li>
-									<li class="active"><a href="acara.php">ACARA</a></li>
-									<li><a href="kontak.php">Kontak</a></li>';
-							}elseif(preg_match("/kontak.php/", $_SERVER['PHP_SELF'])){
+									<li><a href="speaker.php">SPEAKER</a></li>
+									<li class="active"><a href="seminar.php">SEMINAR</a></li>
+									<li><a href="workshop.php">WORKSHOP</a></li>
+									<li><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li><a href="contact.php">CONTACT</a></li>';
+							}elseif(preg_match("/workshop.php/", $_SERVER['PHP_SELF'])){
 								echo '<li><a href="index.php">HOME</a></li>
-									<li><a href="pembicara.php">PEMBICARA</a></li>
-									<li><a href="acara.php">ACARA</a></li>
-									<li class="active"><a href="kontak.php">Kontak</a></li>';
+									<li><a href="speaker.php">SPEAKER</a></li>
+									<li><a href="seminar.php">SEMINAR</a></li>
+									<li class="active"><a href="workshop.php">WORKSHOP</a></li>
+									<li><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li><a href="contact.php">CONTACT</a></li>';
+							}elseif(preg_match("/maps-venue.php/", $_SERVER['PHP_SELF'])){
+								echo '<li><a href="index.php">HOME</a></li>
+									<li><a href="speaker.php">SPEAKER</a></li>
+									<li><a href="seminar.php">SEMINAR</a></li>
+									<li><a href="workshop.php">WORKSHOP</a></li>
+									<li class="active"><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li><a href="contact.php">CONTACT</a></li>';
+							}elseif(preg_match("/contact.php/", $_SERVER['PHP_SELF'])){
+								echo '<li><a href="index.php">HOME</a></li>
+									<li><a href="speaker.php">SPEAKER</a></li>
+									<li><a href="seminar.php">SEMINAR</a></li>
+									<li><a href="workshop.php">WORKSHOP</a></li>
+									<li><a href="maps-venue.php">MAPS & VENUE</a></li>
+									<li class="active"><a href="contact.php">CONTACT</a></li>';
 							}
 						?>
 						

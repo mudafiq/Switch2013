@@ -25,36 +25,70 @@
  
 </head>
 <body>
+asdfasdfsdaf
 <a id="home"></a>
- 
-<?php 
-include'navbar.php';
-?>
- 
+	<?php
+	include 'navbar.php';
+	?>
 <div class="container"> <a id="features"></a>
  
-<div class="row-fluid FeatLayout">
-<div class="span5 Featimg"><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Akademi+Pariwisata,+Jember,+East+Java,+Indonesia&amp;aq=0&amp;oq=akademi+pariwisata+je&amp;sll=37.0625,-95.677068&amp;sspn=37.325633,86.572266&amp;ie=UTF8&amp;hq=Akademi+Pariwisata,+Jember,+East+Java,+Indonesia&amp;ll=-8.174694,113.716325&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe></div>
-<div class="span7">
-<h1>Kontak Kami</h1>
-<h3>A left aligned image and content with tick</h3>
-<p>As soon as you make a successful payment via PayPal or Google Checkout, your web hosting and domain names will be activated immediately. No waiting time whatsoever. Our network runs the latest stable and secure versions of PHP &amp; MySQL. </p>
-<ul class="ticklist">
-<li>Dedicated Servers</li>
-<li>cPanel Access</li>
-<li>MySQL Databases</li>
-<li>Super Bandwidth</li>
-<li>Web Builder</li>
-<li>Web Secutity</li>
-</ul>
+
+<div class="row-fluid PageHead">
+	<div class="span12">
+	<h1>Jadwal Acara</h1>
+	<h3>Seminar & Workshop</h3>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span6 features"> <img src="images/setup_icon.png" alt="icon">
+	<h4>Seminar</h4>
+	<table>
+		<tr>
+			<td>Jam</td>
+			<td>Acara</td>
+		</tr>
+		<tr>
+			<td>08.00-08.30</td>
+			<td>Registrasi</td>
+		</tr>
+		<tr>
+			<td>08.30-09.00</td>
+			<td>Pembukaan
+- Sambutan Rektor Universitas Muhammadiyah Jember
+- Sambutan Ketua Program Studi
+</td>
+		</tr>
+	</table>
+	</div>
+	<div class="span6 features"> <img src="images/backup_icon.png" alt="icon">
+	<h4>Workshop</h4>
+		<table>
+		<tr>
+			<td>Jam</td>
+			<td>Acara</td>
+		</tr>
+		<tr>
+			<td>08.00-08.30</td>
+			<td>Registrasi</td>
+		</tr>
+		<tr>
+			<td>08.30-09.00</td>
+			<td>Pembukaan
+- Sambutan Rektor Universitas Muhammadiyah Jember
+- Sambutan Ketua Program Studi
+</td>
+		</tr>
+	</table>
+	</div>
+</div>
+
 </div>
 </div>
-</div>
+ 
  
 <?php 
 include 'footer.php';
 ?>
-
  
 <script src="js/jquery.easing.1.2.js"></script>
  

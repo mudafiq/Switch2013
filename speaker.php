@@ -36,7 +36,7 @@
 <a id="testimonials"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
-<center><div class="alert alert-success"><h1>Keynote Speaker</h1></div></center>
+<center><div class="alert alert-info"><h1>Keynote Speaker</h1></div></center>
 <h3></h3>
 <br/><br/>
 </div>
