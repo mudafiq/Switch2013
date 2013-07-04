@@ -327,8 +327,8 @@
 <div class="container"> <a id="contact"></a>
  
 <div class="row-fluid FeatLayout">
-<div class="span7 well">
-<div class="alert alert-info"><h1>Contact Us</h1></div>
+<div class="span12 well">
+<div class="alert alert-info"><h1>Pendaftaran</h1></div>
 <h4>Teknik Informatika</h4>
 <h4>Universitas Muhammadiyah Jember</h4>
 <p>Gedung CC Lantai 2</p>
