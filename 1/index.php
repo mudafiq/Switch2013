@@ -11,7 +11,7 @@
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
  
 <link href="css/hosting.css" rel="stylesheet" media="all">
-<script src="js/bootstrap-carousel.js"></script>
+ 
 <link rel="stylesheet" href="css/flexslider.css"/>
 <script src="js/jquery-1.9.0.min.js"></script>
 <script src="js/jquery.flexslider.js"></script>
@@ -31,44 +31,9 @@
 	<?php 
 	include 'navbar.php';
 	?>
-<div class="container" style="align:center;">
-	<div class="span10" style="padding-left:70px;">
-		<div id="myCarousel" class="carousel slide">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" ></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/cover_switch.png" alt="">
-                    <div class="carousel-caption">
-                      <h4>First Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="images/cover_switch.png" alt="">
-                    <div class="carousel-caption">
-                      <h4>Second Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="images/cover_switch.png" alt="">
-                    <div class="carousel-caption">
-                      <h4>Third Thumbnail label</h4>
-                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-        </div>
-	</div>
-</div>
+	
 	<!-- this is slideshow -->
-	<!--div class="container">
+	<div class="container">
 		<div class="flexslider">
 			<ul class="slides">
 				<li>
@@ -79,7 +44,7 @@
 				</li>
 			</ul>
 		</div>
-	</div-->
+	</div>
 </div>
  
 <div class="container"> <a id="features"></a>
@@ -116,7 +81,8 @@
 	<!--div class="row-fluid PartnersList"> <img src="images/logo1.jpg" alt="logo"> <img src="images/logo2.jpg" alt="logo"> <img src="images/logo3.jpg" alt="logo"> <img src="images/logo4.jpg" alt="logo"> <img src="images/logo5.jpg" alt="logo"> </div-->
 </div>
 
-<div class="container"><a id="speaker"></a> 
+<div class="container"><a id="speaker"></a>
+ 
 <a id="testimonials"></a>
 <div class="row-fluid PageHead">
 <div class="span12">
